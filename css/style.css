@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------body-------- */
+.body {
+
+}
+
+/* ---------header-------- */
+.header {
+    position: relative;
+    width: 100%;
+    font-family: cursive;
+}
+
+.header img {
+    object-fit: cover;
+    width: 100%;
+    border-bottom-left-radius: 49%;
+}
+
+.header span {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header span:hover {
+    cursor: pointer;
+}
+
+.header i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.header i:hover {
+    cursor: pointer;
+}
+
+/* ----------title---------- */
+.title {
+    font-family: cursive;
+    margin: 20px 0;
+    padding: 20px 15px;
+    background-color: rgb(255, 192, 74);
+}
+
+.title span {
+    font-size: 20px;
+    
+}
+
+.title span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* title-home  */
+.title .title-home {
+    margin-top: 15px;
+}
+
+.title-options span {
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 0 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.title-home h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.title-home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+/* title-options  */
+.title-options .title-home-chapters {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.chapters-block-1 .chapters-things {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.chapters-things h2 {
+    display: inline;
+    font-size: 13px;
+}
+
+.chapters-things h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chapters-block-1 .chapters-visit {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.chapters-visit h2 {
+    display: inline;
+    font-size: 13px;
+}
+
+.chapters-visit h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chapters-block-2 .chapters-where {
+   margin-bottom: 15px;
+   background-color: white;
+   border-radius: 10px;
+   width: 200px;
+   padding: 5px;
+   text-align: center;
+}
+
+.chapters-where h2 {
+    display: inline;
+    font-size: 13px;
+
+}
+
+.chapters-where h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chapters-block-2 .chapters-time {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.chapters-time h2 {
+    display: inline;
+    font-size: 13px;
+
+}
+
+.chapters-time h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* --------contents-------- */
+.contents {
+    padding: 0 20px;
+    font-family: cursive;
+}
+
+/* content-1 & content-3 */
+.contents .content-1 {
+    margin-bottom: 20px;
+}
+
+.content-1 .title-content-1-top {
+
+}
+
+.title-content-1-top h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(245, 172, 37);
+}
+
+.title-content-1-top h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.title-content-1-top p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content-1  .img-top-content-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-top-content-1 img {
+    width: 49.5%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-top-content-1 img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.content-1- .img-bot-content-1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.img-bot-content-1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: Cover;
+    margin-top: 5px;
+}
+
+.img-bot-content-1 img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.content-1 .block-find-hotel {
+
+}
+
+.block-find-hotel i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.block-find-hotel p {
+    display: inline;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.block-find-hotel p:hover {
+    background-color: rgb(255, 192, 74);
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* content-2 & content-4 */
+.contents .content-2 {
+    margin-top: 20px;
+}
+
+.content-2 .title-content-2-top {
+    
+}
+
+.title-content-2-top h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+
+}
+
+.title-content-2-top p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content-2 .img-top-content-2 {
+    
+}
+
+.img-top-content-2 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content-2 .block-find-tour {
+
+}
+
+.block-find-tour i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.block-find-tour p {
+    display: inline;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.block-find-tour p:hover {
+    background-color: rgb(255, 192, 74);
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.content-2 .img-bot-content-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.img-bot-content-2 img {
+    width: 49%;
+    object-fit: cover;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.img-bot-content-2 img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+/* ---------restaurant-------- */
+.restaurant {
+    padding: 0 20px;
+    font-family: cursive;
+}
+
+.restaurant h1 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.restaurant p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.restaurant ul {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.restaurant .block-img-restaurant {
+
+}
+
+.block-img-restaurant img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* -----------getting-around---------- */
+.getting-around {
+    padding: 0 20px;
+    font-family: cursive;
+}
+
+.getting-around h1 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.getting-around p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.getting-around .block-img-getting-around {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.block-img-getting-around img {
+    object-fit: cover;
+    width: 49%;
+    height: 400px;
+}
+
+/* -----------comment--------- */
+.comment {
+    padding: 0 20px;
+    font-family: cursive;
+    margin-top: 40px;
+}
+
+.comment form {
+    
+}
+
+form label {
+
+}
+
+form input {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+form button {
+    margin-left: 325px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgb(245, 172, 37);
+    font-weight: bold;
+}
